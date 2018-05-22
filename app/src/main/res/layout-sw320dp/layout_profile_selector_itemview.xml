@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/enrich_profile_selector_itemview_lr_padding"
+    android:paddingRight="@dimen/enrich_profile_selector_itemview_lr_padding"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:gravity="center_vertical"
+    >
+    <TextView
+        android:id="@+id/txtProfileNumber"
+        android:layout_width="@dimen/enrich_profile_selector_profile_number_small_rectsize"
+        android:layout_height="@dimen/enrich_profile_selector_profile_number_small_rectsize"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/profileSelectorSeperator"
+        android:background="@drawable/yellow_bg_round_rect_portfolio_number"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/enrich_profile_selector_profile_number_big_textsize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgProfilePhoto"
+        android:layout_width="@dimen/enrich_profile_selector_profile_number_small_rectsize"
+        android:layout_height="@dimen/enrich_profile_selector_profile_number_small_rectsize"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/enrich_current_profile_number_big_rectsize"
+        android:layout_toRightOf="@+id/txtSelectedProfileNumber"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/txtProfileNumberDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/enrich_profile_selector_content_textsize"
+        android:text="Profile 1: "
+        android:layout_marginRight="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/profileCheckbox"
+            android:text="Profile NAME"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/enrich_profile_selector_content_textsize"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"/>
+
+        <CheckBox
+            android:id="@+id/profileCheckbox"
+            android:layout_width="@dimen/enrich_profile_selector_checkbox_size"
+            android:layout_height="@dimen/enrich_profile_selector_checkbox_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/custom_checkbox_drawable"
+            android:button="@null"
+            android:checked="false"
+            android:drawablePadding="2dp" />
+    </RelativeLayout>
+
+</LinearLayout>

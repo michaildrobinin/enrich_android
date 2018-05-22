@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_titlebar_height"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/enrich_current_profile_layout_lr_padding"
+        android:paddingRight="@dimen/enrich_current_profile_layout_lr_padding"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/txtEnrichProfileTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/enrich_current_profile_element_right_margin"
+            android:text="@string/str_enrich_profile"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/enrich_profile_selector_title_textsize"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/currentProfileSelectorSeperator"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/enrich_current_profile_element_right_margin"
+            android:layout_toRightOf="@+id/txtEnrichProfileTitle"
+            android:background="@drawable/black_vertical_spliter" />
+
+        <TextView
+            android:id="@+id/txtCurrentProfileNumber"
+            android:layout_width="@dimen/enrich_current_profile_number_big_rectsize"
+            android:layout_height="@dimen/enrich_current_profile_number_big_rectsize"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/currentProfileSelectorSeperator"
+            android:background="@drawable/yellow_bg_round_rect_portfolio_number"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/enrich_profile_selector_profile_number_big_textsize"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgCurrentProfilePhoto"
+            android:layout_width="@dimen/enrich_current_profile_number_big_rectsize"
+            android:layout_height="@dimen/enrich_current_profile_number_big_rectsize"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/enrich_current_profile_element_right_margin"
+            android:layout_toRightOf="@+id/txtCurrentProfileNumber"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/imgCollapse"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_down_arrow" />
+    </RelativeLayout>
+</LinearLayout>

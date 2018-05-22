@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Enrich</string>
+
+    <string name="str_login">LOGIN</string>
+    <string name="str_title_login">LOG IN</string>
+    <string name="str_register">REGISTER</string>
+    <string name="str_reset_password">RESET PASSWORD</string>
+    <string name="str_enter">ENTER</string>
+    <string name="str_settings">Settings</string>
+    <string name="str_sms_image">SMS IMAGE</string>
+    <string name="str_sms_message">SMS MESSAGE</string>
+    <string name="str_magic_voicemail">MAGIC VOICEMAIL</string>
+    <string name="str_add_my_contact">ADD CONTACT</string>
+    <string name="str_edit_card_details">EDIT CARD DETAILS</string>
+    <string name="str_contact_information">CONTACT INFORMATION</string>
+    <string name="str_card_details">CARD DETAILS</string>
+    <string name="str_cards">CARD</string>
+    <string name="str_center_the_card">CENTER THE CARD</string>
+
+    <string name="str_flash_on">FLASH ON</string>
+    <string name="str_flash_off">FLASH OFF</string>
+
+    <string name="str_front_image">FRONT IMAGE</string>
+    <string name="str_back_image">BACK IMAGE</string>
+
+    <string name="str_enrich_profile">enRICH PROFILE</string>
+
+    <string name="str_alert_msg_enter_email">Please enter email.</string>
+    <string name="str_alert_msg_invalid_email">Invalid email.</string>
+    <string name="str_alert_msg_enter_password">Please enter password.</string>
+    <string name="str_alert_msg_invalid_username_or_password">Invalid username or password.</string>
+
+
+    <string name="str_email_box_hint">EMAIL</string>
+    <string name="str_password_box_hint">PASSWORD</string>
+    <string name="str_registered_email">REGISTERED EMAIL</string>
+
+    <string name="str_need_help">NEED HELP?</string>
+
+    <string name="str_button_card_scanner">CARD SCANNER</string>
+    <string name="str_button_my_contacts">MY CONTACTS</string>
+    <string name="str_button_add_contact">ADD CONTACT</string>
+    <string name="str_button_settings">SETTINGS</string>
+    <string name="str_button_submit">SUBMIT</string>
+
+    <string name="str_button_get_more_cards">GET MORE CARDS</string>
+    <string name="str_button_upgrade">UPGRADE</string>
+    <string name="str_button_support">Support</string>
+    <string name="str_membership_level_freeloader">MEMBERSHIP LEVEL</string>
+    <string name="str_affliate_link">AFFLIATE LINK</string>
+    
+    <string name="str_edit_sms_image">EDIT SMS IMAGE</string>
+    <string name="str_edit_sms_message">EDIT SMS MESSAGE</string>
+    <string name="str_edit_magic_voicemail">EDIT MAGIC VOICEMAIL</string>
+
+    <string name="str_current_image">CURRENT IMAGE</string>
+
+    <string name="str_upload_new_image">UPLOAD NEW IMAGE</string>
+    <string name="str_button_save">SAVE</string>
+    <string name="str_button_cancel">CANCEL</string>
+    <string name="str_button_test_now">TEST NOW</string>
+    <string name="str_button_edit">EDIT</string>
+    <string name="str_button_done">DONE</string>
+    <string name="str_front">FRONT</string>
+    <string name="str_back">BACK</string>
+
+    <string name="str_search_for_cards">SEARCH FOR CARDS</string>
+
+
+    <string name="str_edit_sms_message_description">Use these tokens to personalize your message.\nTokens will be replaced with your contact\'s data when message is sent.</string>
+    <string name="str_edit_sms_message_add_list_variables_instruciton">first name = [[fname]]    last name = [[lname]]    \ncompany = [[company]]</string>
+    <string name="str_edit_sms_message_test_now_description1">Send a test message to the mobile phone number on your account.</string>
+    <string name="str_edit_sms_message_test_now_description2">Variable data for test: First Name: Richie Last Name: Robot Company: enRICH</string>
+
+    <string name="str_edit_magic_voicemail_description1">Magic Voicemail is delivered during the day 2 process.</string>
+    <string name="str_edit_magic_voicemail_description2">Recordings must be WAV file and under 23 seconds in total length.</string>
+    <string name="str_current_recording">CURRENT RECORDING</string>
+    <string name="str_new_recording">NEW RECORDING</string>
+    <string name="str_start_recording">START RECORDING</string>
+    <string name="str_stop_recording">STOP RECORDING</string>
+
+    <string name="pick_image_intent_text">SELECT TO TAKE PICTURE</string>
+
+    <string name="str_button_upload_new_recording">UPLOAD NEW RECORDING</string>
+
+    <string name="str_firstname">firstname</string>
+    <string name="str_lastname">lastname</string>
+    <string name="str_company">company</string>
+
+    <string name="str_contactinfo_firstname">First Name:</string>
+    <string name="str_contactinfo_firstname_hint">Vito</string>
+    <string name="str_contactinfo_middlename">Middle Name:</string>
+    <string name="str_contactinfo_middlename_hint">Walter</string>
+    <string name="str_contactinfo_lastname">Last Name:</string>
+    <string name="str_contactinfo_lastname_hint">Ferrara</string>
+    <string name="str_contactinfo_company">Company:</string>
+    <string name="str_contactinfo_company_hint">Network Sound and Video</string>
+    <string name="str_contactinfo_title">Title:</string>
+    <string name="str_contactinfo_title_hint">President</string>
+    <string name="str_contactinfo_company_url">Comapny URL:</string>
+    <string name="str_contactinfo_company_url_hint">networksound.com</string>
+    <string name="str_contactinfo_work_email">Work Email:</string>
+    <string name="str_contactinfo_work_email_hint">vito@networksound.com</string>
+    <string name="str_contactinfo_work_phone">Work Phone:</string>
+    <string name="str_contactinfo_work_phone_hint">(407) 359-2220</string>
+    <string name="str_contactinfo_mobile_phone">Mobile Phone:</string>
+    <string name="str_contactinfo_mobile_phone_hint">(407) 359-2220</string>
+    <string name="str_contactinfo_other_phone">Other Phone:</string>
+    <string name="str_contactinfo_other_phone_hint">(407) 359-2220</string>
+    <string name="str_contactinfo_home_phone">Home Phone:</string>
+    <string name="str_contactinfo_home_phone_hint">(407) 359-2220</string>
+    <string name="str_contactinfo_work_fax">Work Fax:</string>
+    <string name="str_contactinfo_work_fax_hint">(407) 886-6297</string>
+    <string name="str_contactinfo_twitter">Twitter:</string>
+    <string name="str_contactinfo_twitter_hint">feedtead</string>
+    <string name="str_contactinfo_skype">Skype:</string>
+    <string name="str_contactinfo_skype_hint">(407) 886-6297</string>
+    <string name="str_contactinfo_address">Address:</string>
+    <string name="str_contactinfo_address_hint">234 Main Street\nSmithtown   NY\n11787\nUnited States</string>
+    <string name="str_contactinfo_enrich_tags">enRICH TAGS:</string>
+    <string name="str_contactinfo_enrich_tags_hint">first tag, second tag, third tag</string>
+    <string name="str_contactinfo_enrich_notes">enRICH NOTES</string>
+    <string name="str_contactinfo_enrich_notes_hint">Make some notes about your contact.</string>
+    <string name="str_contactinfo_enrich_data">enRICH DATA</string>
+    <string name="str_card_images">Card Images</string>
+    <string name="str_contactinfo_enrich_data_hint">Data available - Click Here</string>
+
+    <string name="str_alert_camera_permission">Camera Permission is Denied.</string>
+    <string name="str_alert_require_camera_permission">This app just requires camera pemission is allowed. Please allow it.</string>
+
+    <string name="str_alert_write_permission">Write Storage Permission is Denied.</string>
+    <string name="str_alert_require_write_permission">This app just requires write storage pemission is allowed. Please allow it.</string>
+
+    <string name="str_alert_record_permission">Record Audio Permission is Denied.</string>
+    <string name="str_alert_require_record_permission">To record a new voice mail, it just requires record audio pemission to be allowed.</string>
+
+    <string name="str_add_contact_bottom_description">Submit button will initiate all actions enabled in the selected profile.If enabled, you hereby confirm that you have permission to send emails and/or SMS messages and/or ringless voicemails to the contact\'s telephone numbers/email addresses listed on this scanned business card.</string>
+</resources>

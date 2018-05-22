@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/contact_screen_contact_info_bottom_margin"
+    android:layout_marginTop="@dimen/contact_screen_contact_info_bottom_margin"
+      >
+
+    <ImageView
+        android:id="@+id/imgEnrichNotes"
+        android:layout_width="@dimen/contact_screen_contact_info_icon_size"
+        android:layout_height="@dimen/contact_screen_contact_info_icon_size"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="@dimen/contact_screen_contact_info_icon_right_margin"
+        android:src="@drawable/icon_enrich_notes"
+        />
+    <TextView
+        android:id="@+id/txtEnrichNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/contact_screen_contact_info_header_textsize"
+        android:text="@string/str_contactinfo_enrich_notes"
+        android:textColor="@color/contact_info_header_textcolor"
+        android:layout_toRightOf="@+id/imgEnrichNotes"
+        />
+    <EditText
+        android:id="@+id/edtEnrichNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/contact_screen_contact_info_edit_textsize"
+        android:textColorHint="@color/contact_info_edit_hintcolor"
+        android:background="@null"
+        android:hint="@string/str_contactinfo_enrich_notes_hint"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="@dimen/contact_screen_contact_info_icon_top_margin"
+        android:layout_below="@+id/txtEnrichNotes"
+        android:layout_alignLeft="@+id/txtEnrichNotes"
+        android:gravity="start"
+        android:paddingTop="@dimen/contact_screen_contact_info_edit_tb_padding"
+        android:paddingBottom="@dimen/contact_screen_contact_info_edit_tb_padding"
+        />
+
+</RelativeLayout>

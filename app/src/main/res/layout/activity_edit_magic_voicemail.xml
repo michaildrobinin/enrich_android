@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:customTextView="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_titlebar_height"
+        android:paddingTop="@dimen/header_mark_tb_padding"
+        android:paddingBottom="@dimen/header_mark_tb_padding"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/enrich_header_mark_small"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_titlebar_height"
+        android:background="@color/colorLightYellow"
+        android:paddingLeft="@dimen/top_header_titlebar_left_right_padding"
+        android:paddingRight="@dimen/top_header_titlebar_left_right_padding"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/top_header_titlebar_height"
+            android:background="@color/colorLightYellow"
+            android:text="@string/str_magic_voicemail"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/top_header_titlebar_textsize"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <enrich.and.com.ui.customviews.CurrentProfileBarView
+                    android:id="@+id/currentProfileBarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    custom:showCollapseButton="false" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/light_grey_seperator_view_height"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorLightGray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/setting_sms_magic_voicemail_content_layout_tb_padding"
+                android:paddingLeft="@dimen/setting_sms_magic_voicemail_content_layout_lr_padding"
+                android:paddingRight="@dimen/setting_sms_magic_voicemail_content_layout_lr_padding"
+                android:paddingTop="@dimen/setting_sms_magic_voicemail_content_layout_tb_padding">
+
+                <TextView
+                    android:id="@+id/txtEditSmsMagicVoicemailDescription1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="start"
+                    android:text="@string/str_edit_magic_voicemail_description1"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/light_grey_seperator_view_height"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorLightGray" />
+
+                <TextView
+                    android:id="@+id/txtEditSmsMagicVoicemailDescription2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/str_edit_magic_voicemail_description2"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightGray"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fcfcfc"
+                android:paddingBottom="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/txtNewRecord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/str_new_recording"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/recordSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/seekbar_custom_thumbnail_size"
+                    android:layout_below="@+id/txtNewRecord"
+                    android:indeterminate="false"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="@dimen/seekbar_custom_thumbnail_size"
+                    android:paddingRight="@dimen/seekbar_custom_thumbnail_size"
+                    android:paddingTop="5dp"
+                    android:progress="30"
+                    android:progressDrawable="@drawable/custom_seekbar_drawable"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/custom_seekbar_thumb_drawable"
+                    android:thumbOffset="0dp" />
+
+                <TextView
+                    android:id="@+id/txtStartStopRecord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_start_recording"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/recordSeekBar"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/seekbar_custom_thumbnail_size"
+                    android:layout_marginBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/btnPlayNewRecord"
+                    android:layout_width="@dimen/setting_sms_magic_voicemail_play_button_size"
+                    android:layout_height="@dimen/setting_sms_magic_voicemail_play_button_size"
+                    android:layout_below="@+id/recordSeekBar"
+                    android:layout_alignRight="@+id/recordSeekBar"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_record_play"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightGray"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fcfcfc"
+                android:paddingBottom="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/txtCurrentRecording"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/str_current_recording"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/playSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/seekbar_custom_thumbnail_size"
+                    android:layout_below="@+id/txtCurrentRecording"
+                    android:indeterminate="false"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="@dimen/seekbar_custom_thumbnail_size"
+                    android:paddingRight="@dimen/seekbar_custom_thumbnail_size"
+                    android:paddingTop="5dp"
+                    android:progress="30"
+                    android:progressDrawable="@drawable/custom_seekbar_drawable"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/custom_seekbar_thumb_drawable"
+                    android:thumbOffset="0dp" />
+
+                <ImageView
+                    android:id="@+id/btnPlayCurrentRecord"
+                    android:layout_width="@dimen/setting_sms_magic_voicemail_play_button_size"
+                    android:layout_height="@dimen/setting_sms_magic_voicemail_play_button_size"
+                    android:layout_below="@+id/playSeekBar"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_record_play" />
+
+                <ImageView
+                    android:id="@+id/btnPauseRecord"
+                    android:layout_width="@dimen/setting_sms_magic_voicemail_play_button_size"
+                    android:layout_height="@dimen/setting_sms_magic_voicemail_play_button_size"
+                    android:layout_alignTop="@+id/btnPlayCurrentRecord"
+                    android:layout_toRightOf="@+id/btnPlayCurrentRecord"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_record_pause" />
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightGray"
+                />
+            <Button
+                android:id="@+id/btnUploadNewRecording"
+                android:layout_width="270dp"
+                android:layout_height="@dimen/activity_bottom_button_height"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/yellow_upload_image_btn"
+                android:text="@string/str_button_upload_new_recording"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/setting_upload_button_textsize"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="120dp"
+                    android:layout_height="@dimen/add_mycontact_layout_button_height"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/white_roundrect_save_btn"
+                    android:text="@string/str_button_cancel"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/setting_upload_button_textsize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="120dp"
+                    android:layout_height="@dimen/add_mycontact_layout_button_height"
+                    android:layout_toRightOf="@+id/btnCancel"
+                    android:background="@drawable/white_roundrect_save_btn"
+                    android:text="@string/str_button_save"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/setting_upload_button_textsize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

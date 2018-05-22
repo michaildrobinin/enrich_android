@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_titlebar_height"
+        android:paddingTop="@dimen/header_mark_tb_padding"
+        android:paddingBottom="@dimen/header_mark_tb_padding"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/enrich_header_mark_small"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_titlebar_height"
+        android:background="@color/colorLightYellow"
+        android:paddingLeft="@dimen/top_header_titlebar_left_right_padding"
+        android:paddingRight="@dimen/top_header_titlebar_left_right_padding"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/top_header_titlebar_height"
+            android:background="@color/colorLightYellow"
+            android:text="@string/str_sms_image"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/top_header_titlebar_textsize"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <enrich.and.com.ui.customviews.CurrentProfileBarView
+                android:id="@+id/currentProfileBarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:showCollapseButton="false" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/light_grey_seperator_view_height"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorLightGray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/str_current_image"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/setting_upload_button_textsize" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/imgSmsImage"
+                android:layout_width="@dimen/setting_sms_image_current_img_size"
+                android:layout_height="@dimen/setting_sms_image_current_img_size"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                />
+
+            <ImageView
+                android:id="@+id/imgRotateImage"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/image_rotate"
+                android:layout_alignBottom="@+id/imgSmsImage"
+                android:layout_toRightOf="@+id/imgSmsImage"
+                android:layout_marginLeft="20dp"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to add an image"
+            android:layout_centerInParent="true"
+            android:textSize="12sp"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:id="@+id/btnUploadNewImage"
+            android:layout_width="270dp"
+            android:layout_height="@dimen/activity_bottom_button_height"
+            android:background="@drawable/yellow_upload_image_btn"
+            android:text="@string/str_upload_new_image"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/setting_upload_button_textsize"
+            android:textStyle="bold"
+            android:visibility="gone"
+
+            />
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="170dp"
+            android:layout_height="@dimen/activity_bottom_button_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/white_roundrect_save_btn"
+            android:text="@string/str_button_save"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/setting_upload_button_textsize"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

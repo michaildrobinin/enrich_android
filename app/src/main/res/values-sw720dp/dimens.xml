@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_round_corner">60dp</dimen>
+
+    <dimen name="user_photo_imageview_corner_radius">30dp</dimen>
+    <dimen name="profile_photo_imageview_corner_radius">30dp</dimen>
+
+    <dimen name="one_dp">1sp</dimen>
+    <dimen name="default_margin">16sp</dimen>
+
+    <dimen name="login_button_textsize">26sp</dimen>
+    <dimen name="login_button_lr_padding">10dp</dimen>
+    <dimen name="login_button_tb_padding">3dp</dimen>
+
+    <dimen name="login_register_button_tb_margin">30dp</dimen>
+    <dimen name="login_register_button_lr_margin">80dp</dimen>
+
+
+    <dimen name="first_screen_top_bottom_padding">20dp</dimen>
+    <dimen name="first_screen_left_right_padding">40dp</dimen>
+
+    <dimen name="top_header_titlebar_height">100dp</dimen>
+    <dimen name="top_header_titlebar_textsize">36sp</dimen>
+    <dimen name="top_header_titlebar_left_right_padding">30dp</dimen>
+
+    <dimen name="login_screen_robot_left_right_margin">60dp</dimen>
+    <dimen name="login_screen_robot_height">200dp</dimen>
+    <dimen name="login_screen_email_box_left_right_margin">150dp</dimen>
+    <dimen name="login_screen_enterbtn_left_right_margin">90dp</dimen>
+    <dimen name="login_screen_email_box_left_right_padding">35dp</dimen>
+    <dimen name="login_screen_email_box_top_bottom_padding">25dp</dimen>
+    <dimen name="login_screen_email_box_textsize">28sp</dimen>
+
+    <dimen name="main_screen_menu_button_width">70dp</dimen>
+    <dimen name="main_screen_menu_button_height">55dp</dimen>
+    <dimen name="main_screen_menu_button_top_margin">20dp</dimen>
+    <dimen name="main_screen_menu_button_left_margin">25dp</dimen>
+    <dimen name="main_screen_top_header_height">220dp</dimen>
+
+    <dimen name="main_screen_buttons_margin_bottom">30dp</dimen>
+    <dimen name="main_screen_buttons_layout_lr_padding">70dp</dimen>
+    <dimen name="main_screen_buttons_height">100dp</dimen>
+    <dimen name="main_screen_buttons_textsize">36sp</dimen>
+    <dimen name="main_screen_buttons_inner_icon_width">55dp</dimen>
+    <dimen name="main_screen_buttons_lr_padding">65dp</dimen>
+    <dimen name="main_screen_buttons_tb_padding">10dp</dimen>
+
+    <dimen name="main_screen_sliding_menu_width">640dp</dimen>
+    <dimen name="main_screen_sliding_left_padding">45dp</dimen>
+    <dimen name="main_screen_sliding_top_padding">80dp</dimen>
+    <dimen name="main_screen_sliding_userphoto_size">160dp</dimen>
+    <dimen name="main_screen_sliding_menu_textsize">28sp</dimen>
+    <dimen name="main_screen_sliding_menu_question_iconsize">60dp</dimen>
+    <dimen name="main_screen_sliding_menu_button_lr_padding">10dp</dimen>
+    <dimen name="main_screen_sliding_menu_button_tb_padding">5dp</dimen>
+
+    <dimen name="header_mark_tb_padding">3dp</dimen>
+    <dimen name="sub_screen_menu_button_width">60dp</dimen>
+    <dimen name="sub_screen_menu_button_height">40dp</dimen>
+    <dimen name="sub_screen_titlebar_button_width">60dp</dimen>
+    <dimen name="sub_screen_titlebar_button_height">60dp</dimen>
+    <dimen name="sub_screen_profile_seperator_height">20dp</dimen>
+
+    <dimen name="enrich_profile_selector_title_textsize">32sp</dimen>
+    <dimen name="enrich_profile_selector_content_textsize">28sp</dimen>
+    <dimen name="enrich_profile_selector_profile_number_big_textsize">26sp</dimen>
+    <dimen name="enrich_current_profile_number_big_rectsize">60dp</dimen>
+    <dimen name="enrich_current_profile_layout_lr_padding">20dp</dimen>
+    <dimen name="enrich_profile_selector_profile_number_small_rectsize">55dp</dimen>
+    <dimen name="enrich_current_profile_element_right_margin">15dp</dimen>
+    <dimen name="enrich_profile_selector_itemview_lr_padding">50dp</dimen>
+    <dimen name="enrich_profile_selector_checkbox_size">45dp</dimen>
+
+    <dimen name="light_grey_seperator_view_height">1dp</dimen>
+
+    <dimen name="enrich_setting_edit_layout_lr_padding">40dp</dimen>
+    <dimen name="enrich_setting_edit_layout_tb_padding">35dp</dimen>
+
+    <dimen name="right_arrow_width">35dp</dimen>
+    <dimen name="right_arrow_height">40dp</dimen>
+
+    <dimen name="setting_sms_image_current_img_size">350dp</dimen>
+    <dimen name="setting_upload_button_textsize">34sp</dimen>
+    <dimen name="setting_upload_button_lr_padding">10dp</dimen>
+    <dimen name="setting_upload_button_tb_padding">0dp</dimen>
+
+    <dimen name="setting_sms_message_content_layout_lr_padding">45dp</dimen>
+    <dimen name="setting_sms_message_layout_button_width">200dp</dimen>
+    <dimen name="setting_sms_message_layout_button_height">60dp</dimen>
+
+    <dimen name="setting_sms_message_header_tag_textview_width">80dp</dimen>
+    <dimen name="setting_sms_message_header_tag_textview_height">28dp</dimen>
+    <dimen name="setting_sms_message_header_tag_drop_layout_height">40dp</dimen>
+    <dimen name="setting_sms_message_header_tag_textview_right_margin">10dp</dimen>
+    <dimen name="setting_sms_message_header_tag_textview_textsize">12sp</dimen>
+    <dimen name="setting_sms_message_header_tag_textview_lr_margin">3dp</dimen>
+    <dimen name="setting_sms_message_content_layout_lr_innerpadding">30dp</dimen>
+    <dimen name="setting_sms_message_content_layout_tb_innerpadding">30dp</dimen>
+
+    <dimen name="setting_sms_magic_voicemail_content_layout_lr_padding">60dp</dimen>
+    <dimen name="setting_sms_magic_voicemail_content_layout_tb_padding">15dp</dimen>
+    <dimen name="setting_sms_magic_voicemail_play_button_size">45dp</dimen>
+
+    <dimen name="seekbar_custom_thumbnail_size">45dp</dimen>
+
+    <dimen name="contact_screen_left_right_padding">40dp</dimen>
+    <dimen name="contact_screen_top_bottom_padding">30dp</dimen>
+    <dimen name="contact_screen_contact_info_header_textsize">30sp</dimen>
+    <dimen name="contact_screen_contact_info_edit_textsize">26sp</dimen>
+    <dimen name="contact_screen_contact_info_edit_tb_padding">3dp</dimen>
+    <dimen name="contact_screen_contact_info_icon_size">50dp</dimen>
+    <dimen name="contact_screen_contact_info_icon_right_margin">25dp</dimen>
+    <dimen name="contact_screen_contact_info_icon_top_margin">10dp</dimen>
+    <dimen name="contact_screen_contact_info_bottom_margin">25dp</dimen>
+    <dimen name="add_mycontact_layout_button_width">280dp</dimen>
+    <dimen name="add_mycontact_layout_button_height">70dp</dimen>
+
+    <dimen name="card_detail_screen_cardview_tb_padding">20dp</dimen>
+    <dimen name="card_detail_screen_cardview_lr_padding">40dp</dimen>
+
+    <dimen name="card_detail_screen_header_card_imageview_width">220dp</dimen>
+    <dimen name="card_detail_screen_header_card_imageview_height">126dp</dimen>
+    <dimen name="card_detail_screen_header_contactname_textsize">32sp</dimen>
+    <dimen name="card_detail_screen_header_company_textsize">28sp</dimen>
+    <dimen name="card_detail_screen_card_image_height">220dp</dimen>
+    <dimen name="yellow_front_back_card_marker">70dp</dimen>
+    <dimen name="yellow_front_back_card_marker_textsize">28sp</dimen>
+    <dimen name="yellow_front_back_card_marker_tb_padding">10dp</dimen>
+
+    <dimen name="contacts_listview_card_imageview_width">200dp</dimen>
+    <dimen name="contacts_listview_card_imageview_height">133dp</dimen>
+    <dimen name="contacts_listview_contact_name_textsize">32sp</dimen>
+
+    <dimen name="activity_bottom_button_height">70dp</dimen>
+    <dimen name="crop_image_layout_button_size">40dp</dimen>
+
+</resources>

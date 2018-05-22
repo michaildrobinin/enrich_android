@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorLightYellow">#ecc232</color>
+    <color name="colorDarkYellow">#FF9800</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorLightGray">#aaaaaa</color>
+    <color name="colorDarkGray">#7d7c7e</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="borderStrokeColor">#000000</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorEmailEditHint">#bbb7b8</color>
+    <color name="colorEmailEditTextColor">#000000</color>
+    <color name="colorEmailEditBgColor">#f0eced</color>
+
+    <color name="colorSlidingMenuTextColor">#dfdfdf</color>
+
+    <color name="contact_info_edit_hintcolor">#c2c2c2</color>
+    <color name="contact_info_header_textcolor">#494949</color>
+
+</resources>

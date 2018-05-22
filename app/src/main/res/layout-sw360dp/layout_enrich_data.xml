@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/contact_screen_contact_info_bottom_margin"
+    android:paddingLeft="@dimen/contact_screen_left_right_padding"
+    android:paddingRight="@dimen/contact_screen_left_right_padding"
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imgEnrichData"
+        android:layout_width="@dimen/contact_screen_contact_info_icon_size"
+        android:layout_height="@dimen/contact_screen_contact_info_icon_size"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="@dimen/contact_screen_contact_info_icon_right_margin"
+        android:src="@drawable/icon_enrich_data"
+        />
+    <TextView
+        android:id="@+id/txtEnrichData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/contact_screen_contact_info_header_textsize"
+        android:text="@string/str_contactinfo_enrich_data"
+        android:textColor="@color/contact_info_header_textcolor"
+        android:layout_marginRight="15dp"
+        android:paddingTop="@dimen/contact_screen_contact_info_edit_tb_padding"
+        android:paddingBottom="@dimen/contact_screen_contact_info_edit_tb_padding"
+        />
+    <TextView
+        android:id="@+id/txtEnrichDataLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/contact_screen_contact_info_edit_textsize"
+        android:textColorHint="@color/contact_info_edit_hintcolor"
+        android:background="@null"
+        android:hint="@string/str_contactinfo_enrich_data_hint"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/txtEnrichNotes"
+        android:paddingTop="@dimen/contact_screen_contact_info_edit_tb_padding"
+        android:paddingBottom="@dimen/contact_screen_contact_info_edit_tb_padding"
+        android:maxLines="1"
+        android:singleLine="true"
+        />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fcfcfc">
+    <TextView
+        android:id="@+id/txtSectionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:text="TRANSCRIBING"
+        android:paddingTop="30dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="30dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sub_screen_profile_seperator_height"
+        android:background="@drawable/gradient_gray_bar"
+        />
+</LinearLayout>

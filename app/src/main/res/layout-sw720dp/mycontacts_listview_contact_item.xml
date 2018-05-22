@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:id="@+id/rootItemLayout"
+    >
+    <RelativeLayout
+        android:id="@+id/txtSectionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="20dp"
+        >
+        <CheckBox
+            android:id="@+id/checkContactItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:visibility="visible"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:id="@+id/imgViewCard"
+            android:layout_width="@dimen/contacts_listview_card_imageview_width"
+            android:layout_height="@dimen/contacts_listview_card_imageview_height"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/header_cardimage_background"
+            android:layout_toRightOf="@+id/checkContactItem"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/imgViewCard"
+            android:layout_centerVertical="true"
+            >
+            <TextView
+                android:id="@+id/txtContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#222222"
+                android:text="VITO FERA"
+                android:textSize="@dimen/contacts_listview_contact_name_textsize"
+                android:maxLines="1"
+                android:singleLine="true"
+                />
+            <TextView
+                android:id="@+id/txtCompanyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#969696"
+                android:text="VITO FERA"
+                android:textSize="@dimen/card_detail_screen_header_company_textsize"
+                android:maxLines="1"
+                android:singleLine="true"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/colorLightGray"
+        />
+</LinearLayout>

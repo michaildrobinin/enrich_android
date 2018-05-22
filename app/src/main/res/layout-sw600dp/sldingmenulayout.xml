@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/slidingmenulayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/main_screen_sliding_menu_width"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkGray"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/main_screen_sliding_left_padding"
+    android:paddingRight="@dimen/main_screen_sliding_left_padding"
+    android:paddingTop="@dimen/main_screen_sliding_top_padding"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgUserPhoto"
+            android:layout_width="@dimen/main_screen_sliding_userphoto_size"
+            android:layout_height="@dimen/main_screen_sliding_userphoto_size"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/normal_user_icon" />
+
+        <TextView
+            android:id="@+id/txtEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/imgUserPhoto"
+            android:text="223232@gmail.com"
+            android:textColor="@color/colorSlidingMenuTextColor"
+            android:textSize="@dimen/main_screen_sliding_menu_textsize"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    >
+    <TextView
+        android:id="@+id/txtCardRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSlidingMenuTextColor"
+        android:textSize="@dimen/main_screen_sliding_menu_textsize"
+        android:text="18 Cards Remaining"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btnGetMoreCards"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:id="@+id/btnGetMoreCards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_button_get_more_cards"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:background="@drawable/trans_bg_round_btn"/>
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    >
+    <TextView
+        android:id="@+id/txtMembershipLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSlidingMenuTextColor"
+        android:textSize="@dimen/main_screen_sliding_menu_textsize"
+        android:text="@string/str_membership_level_freeloader"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btnUpgrade"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:id="@+id/btnUpgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_button_upgrade"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:background="@drawable/trans_bg_round_btn"/>
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSlidingMenuTextColor"
+        android:textSize="@dimen/main_screen_sliding_menu_textsize"
+        android:text="@string/str_affliate_link"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btnUpgrade"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/txtAffliateLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSlidingMenuTextColor"
+        android:textSize="@dimen/main_screen_sliding_menu_textsize"
+        android:text="https://enri.ch/dap/a/?a=1082"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btnUpgrade"
+        android:layout_centerVertical="true"/>
+</LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    >
+    <ImageView
+        android:id="@+id/imgQuestionIcon"
+        android:layout_width="@dimen/main_screen_sliding_menu_question_iconsize"
+        android:layout_height="@dimen/main_screen_sliding_menu_question_iconsize"
+        android:src="@drawable/question_icon"
+        android:layout_marginRight="30dp"/>
+    <TextView
+        android:id="@+id/txtSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSlidingMenuTextColor"
+        android:textSize="@dimen/main_screen_sliding_menu_textsize"
+        android:text="@string/str_button_support"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/imgQuestionIcon"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
+
+</LinearLayout>

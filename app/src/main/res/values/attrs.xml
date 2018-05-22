@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurrentProfileBarAttr">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="showCollapseButton" format="boolean" />
+        <attr name="isCollapsed" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SmsMessageHeaderTagTextViewAttr">
+        <attr name="customText" format="reference"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ContactInfoViewAttr">
+        <attr name="isEditable" format="boolean" />
+    </declare-styleable>
+</resources>

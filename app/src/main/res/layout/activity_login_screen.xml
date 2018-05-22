@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true"
+    >
+
+    <TextView
+        android:id="@+id/txtHeaderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_header_titlebar_height"
+        android:background="@color/colorLightYellow"
+        android:text="@string/str_title_login"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/top_header_titlebar_textsize"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/txtHeaderTitle"
+
+            >
+            <ImageView
+                android:id="@+id/imgRobot"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/small_robot"
+                />
+
+            <RelativeLayout
+                android:id="@+id/authInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgRobot"
+                android:layout_marginLeft="@dimen/login_screen_email_box_left_right_margin"
+                android:layout_marginRight="@dimen/login_screen_email_box_left_right_margin"
+                >
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorEmailEditBgColor"
+                    android:hint="@string/str_email_box_hint"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="@dimen/login_screen_email_box_top_bottom_padding"
+                    android:paddingLeft="@dimen/login_screen_email_box_left_right_padding"
+                    android:paddingRight="@dimen/login_screen_email_box_left_right_padding"
+                    android:paddingTop="@dimen/login_screen_email_box_top_bottom_padding"
+                    android:textColor="@color/colorEmailEditTextColor"
+                    android:textColorHighlight="@color/colorEmailEditHint"
+                    android:textSize="@dimen/login_screen_email_box_textsize"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:imeOptions="actionNext"
+                    android:layout_marginTop="30dp"
+                    />
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorEmailEditTextColor"
+                    android:textColorHighlight="@color/colorEmailEditHint"
+                    android:background="@color/colorEmailEditBgColor"
+                    android:paddingLeft="@dimen/login_screen_email_box_left_right_padding"
+                    android:paddingRight="@dimen/login_screen_email_box_left_right_padding"
+                    android:paddingTop="@dimen/login_screen_email_box_top_bottom_padding"
+                    android:paddingBottom="@dimen/login_screen_email_box_top_bottom_padding"
+                    android:textSize="@dimen/login_screen_email_box_textsize"
+                    android:hint="@string/str_password_box_hint"
+                    android:inputType="textPassword"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:imeOptions="actionDone"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_below="@+id/edtEmail"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorLightGray"
+                    android:layout_below="@+id/edtPassword"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/authInputLayout"
+                android:paddingBottom="50dp"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btnEnter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/yellow_bg_round_btn"
+                    android:text="@string/str_enter"
+                    android:textSize="@dimen/login_button_textsize"
+                    android:layout_marginLeft="@dimen/login_screen_enterbtn_left_right_margin"
+                    android:layout_marginRight="@dimen/login_screen_enterbtn_left_right_margin"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+</LinearLayout>
